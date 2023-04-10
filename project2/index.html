@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toplu Ürün Sepete Ekleme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-container">
+  <img src="media/main-image.png" alt="">
+  <div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Ölçü</th>
+                <th>Stok</th>
+                <th class="order-number-text">Sipariş Adedi</th>
+            </tr>
+        </thead>
+        <tbody id="product-variants">
+        </tbody>
+    </table>
+    <div class="total-price-container">
+        <span class="total-price-wrapper"><span id="total-price">0.00</span>TL</span>
+        <button id="add-to-cart">Sepete Ekle</button>
+    </div>
+  </div> 
+</div>
+    <script src="scripts.js"></script>
+</body>
+</html>

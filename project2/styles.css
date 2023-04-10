@@ -1,0 +1,127 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 45px;
+}
+
+img {
+    height: 300px;
+}
+
+table {
+    display: flex;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    display: flex;
+}
+
+thead tr {
+    display: flex;
+    flex-direction: column;
+}
+
+tbody {
+    display: flex;
+}
+
+tbody tr {
+    display: flex;
+    flex-direction: column;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    width: 65px;
+}
+
+.total-price-container {
+    display: flex;
+    height: 35px;
+}
+
+#total-price {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 4px;
+}
+.button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+input {
+    width: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.order-number {
+    min-height: 73.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-number-text {
+    min-height: 73.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+    width: 498px;;
+}
+
+.total-price-wrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    border-bottom-left-radius: 10px;
+}
+
+#add-to-cart {
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #00a300;
+    cursor: pointer;
+}
+
+.total-number-text {
+    color: green;
+}
